@@ -1,2 +1,13 @@
 # Intune_Enable-Sandbox
-Enable the Windows Sandbox using powershell
+
+# Dependencies
+> NONE
+
+## Install Command
+> powershell.exe -ExecutionPolicy Bypass -WindowStyle Hidden -File install.ps1 
+
+## Uninstall Command
+> powershell.exe -ExecutionPolicy Bypass -WindowStyle Hidden -File uninstall.ps1
+
+## Detection Rules
+> 
